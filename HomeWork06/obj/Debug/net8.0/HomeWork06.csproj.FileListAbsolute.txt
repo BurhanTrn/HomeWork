@@ -1,0 +1,14 @@
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\bin\Debug\net8.0\HomeWork06.exe
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\bin\Debug\net8.0\HomeWork06.deps.json
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\bin\Debug\net8.0\HomeWork06.runtimeconfig.json
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\bin\Debug\net8.0\HomeWork06.dll
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\bin\Debug\net8.0\HomeWork06.pdb
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\obj\Debug\net8.0\HomeWork06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\obj\Debug\net8.0\HomeWork06.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\obj\Debug\net8.0\HomeWork06.AssemblyInfo.cs
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\obj\Debug\net8.0\HomeWork06.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\obj\Debug\net8.0\HomeWork06.dll
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\obj\Debug\net8.0\refint\HomeWork06.dll
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\obj\Debug\net8.0\HomeWork06.pdb
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\obj\Debug\net8.0\HomeWork06.genruntimeconfig.cache
+C:\Users\Hp\Desktop\HomeWork_18_08_2024\HomeWork06\obj\Debug\net8.0\ref\HomeWork06.dll
