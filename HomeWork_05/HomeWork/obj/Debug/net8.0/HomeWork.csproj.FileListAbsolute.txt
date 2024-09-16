@@ -1,0 +1,15 @@
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\bin\Debug\net8.0\HomeWork.exe
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\bin\Debug\net8.0\HomeWork.deps.json
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\bin\Debug\net8.0\HomeWork.runtimeconfig.json
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\bin\Debug\net8.0\HomeWork.dll
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\bin\Debug\net8.0\HomeWork.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\HomeWork.AssemblyInfoInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\HomeWork.AssemblyInfo.cs
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\HomeWork.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\HomeWork.sourcelink.json
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\HomeWork.dll
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\refint\HomeWork.dll
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\HomeWork.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\HomeWork.genruntimeconfig.cache
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_05\HomeWork\obj\Debug\net8.0\ref\HomeWork.dll
