@@ -27,7 +27,7 @@ public class Vehicle
 
     public virtual void BilgileriEkranaYaz()
     {
-        System.Console.WriteLine($"Marka: {Make}\nModel: {Model}\nYıl: {Year}");
+        System.Console.Write($"Marka: {Make} Model: {Model} Yıl: {Year}\n");
     }
 
 

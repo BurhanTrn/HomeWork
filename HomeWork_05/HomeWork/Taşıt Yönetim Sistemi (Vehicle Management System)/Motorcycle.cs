@@ -13,6 +13,7 @@ public class Motorcycle : Vehicle
     public override void BilgileriEkranaYaz()
     {
         base.BilgileriEkranaYaz();
-        
+        System.Console.WriteLine($"Yan sepeti {HasSidecar}.");
+
     }
 }

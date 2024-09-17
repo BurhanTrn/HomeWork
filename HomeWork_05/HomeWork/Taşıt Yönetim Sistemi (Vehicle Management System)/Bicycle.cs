@@ -8,5 +8,10 @@ public class Bicycle : Vehicle
     {
         ZilVarMi = zilVarMi;
     }
-    public string ZilVarMi { get; set; }    
+    public string ZilVarMi { get; set; }
+
+    public override void BilgileriEkranaYaz()
+    {
+        base.BilgileriEkranaYaz();
+    }
 }

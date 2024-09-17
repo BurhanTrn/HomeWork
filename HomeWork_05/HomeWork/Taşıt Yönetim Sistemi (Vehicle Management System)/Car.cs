@@ -9,4 +9,9 @@ public class Car : Vehicle
         NumberOfDoors = numberOfDoors;
     }
     public int NumberOfDoors { get; set; }
+
+    public override void BilgileriEkranaYaz()
+    {
+        base.BilgileriEkranaYaz();
+    }
 }
