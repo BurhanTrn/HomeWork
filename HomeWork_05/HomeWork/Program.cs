@@ -1,5 +1,8 @@
 ﻿using HomeWork.Çalışan_Yönetim_Sistemi__Employee_Management_System_;
 using HomeWork.Hayvanat_Bahçesi_Uygulaması__Zoological_Application_;
+using HomeWork.Hesap_Makinesi;
+using HomeWork.Kitap_Kütüphanesi_Uygulaması__Library_Application_;
+using HomeWork.Mağza_Ürün_Yönetimi;
 using HomeWork.Taşıt_Yönetim_Sistemi__Vehicle_Management_System_;
 
 namespace HomeWork;
@@ -41,13 +44,42 @@ class Program
 
 
 
-        Menager menager1 = new Menager("Hakan", 12423, 75000, 4);
-        Developer developer1 = new Developer("Korhan", 132124, 60000, "C#");
-        Intern ıntern1 = new Intern("Kemal", 127000, 20000);
+        // Menager menager1 = new Menager("Hakan", 12423, 75000, 4);
+        // Developer developer1 = new Developer("Korhan", 132124, 60000, "C#");
+        // Intern ıntern1 = new Intern("Kemal", 127000, 20000);
 
-        menager1.BilgileriEkranaYazdır();
-        developer1.BilgileriEkranaYazdır();
-        ıntern1.BilgileriEkranaYazdır();
+        // menager1.BilgileriEkranaYazdır();
+        // developer1.BilgileriEkranaYazdır();
+        // ıntern1.BilgileriEkranaYazdır();
+
+
+        //   Library lib1 = new Library("Dede Korkut","Anonim",25,486546);
+
+        //   System.Console.WriteLine(lib1.Pages);
+        // System.Console.WriteLine(lib1.Title);
+        // lib1.Borrow();
+        // lib1.Return();
+
+        // ScientificCalculator hesap1 = new ScientificCalculator();
+
+        // System.Console.WriteLine(hesap1.Add(2,8));
+        // System.Console.WriteLine(hesap1.Divide(10,0));
+
+        FoodProduct food1 = new FoodProduct("Ekmek", 8, 100, new DateTime(2024, 9, 2, 15, 00, 00));
+
+        food1.Bilgilendirme();
+
+        System.Console.WriteLine(food1.StockKontrol());
+        food1.StockGüncelle(50);
+        System.Console.WriteLine("---------------------------");
+        food1.Bilgilendirme();
+
+
+
+
+
+
+
 
 
 
