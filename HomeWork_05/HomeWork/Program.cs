@@ -1,4 +1,5 @@
 ﻿using HomeWork.Çalışan_Yönetim_Sistemi__Employee_Management_System_;
+using HomeWork.Çalışma_Takvimi_Uygulaması__Calendar_Application_;
 using HomeWork.Hayvanat_Bahçesi_Uygulaması__Zoological_Application_;
 using HomeWork.Hesap_Makinesi;
 using HomeWork.Kitap_Kütüphanesi_Uygulaması__Library_Application_;
@@ -65,14 +66,23 @@ class Program
         // System.Console.WriteLine(hesap1.Add(2,8));
         // System.Console.WriteLine(hesap1.Divide(10,0));
 
-        FoodProduct food1 = new FoodProduct("Ekmek", 8, 100, new DateTime(2024, 9, 2, 15, 00, 00));
+        // FoodProduct food1 = new FoodProduct("Ekmek", 8, 100, new DateTime(2024, 9, 2, 15, 00, 00));
 
-        food1.Bilgilendirme();
+        // food1.Bilgilendirme();
 
-        System.Console.WriteLine(food1.StockKontrol());
-        food1.StockGüncelle(50);
-        System.Console.WriteLine("---------------------------");
-        food1.Bilgilendirme();
+        // System.Console.WriteLine(food1.StockKontrol());
+        // food1.StockGüncelle(50);
+        // System.Console.WriteLine("---------------------------");
+        // food1.Bilgilendirme();
+
+        Meeting meeting1 = new Meeting("Yönetim Kurulu Toplantısı", "Pazartesi", "Toplantı Odası");
+
+        meeting1.BilgiVer();
+        meeting1.aySonuToplantısı();
+
+
+
+
 
 
 
