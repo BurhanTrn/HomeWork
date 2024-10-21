@@ -12,6 +12,7 @@ class Program
         #endregion
 
         string cumle = "Merhaba benim adım Burhan Torun.";
-        System.Console.WriteLine("Cümle değişkeni içerisindeki cümlenin karakter sayısı :  " + cumle.Length);
+        int karakterSayisi = cumle.Length;
+        System.Console.WriteLine(karakterSayisi);
     }
 }

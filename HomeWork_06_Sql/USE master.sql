@@ -106,16 +106,18 @@ VALUES
 INSERT INTO OduncAlmalar
     (OgrenciID,DergiID,DVDID,KitapID,OduncTarihi)
 VALUES
-    (1, 2, 3, 2, '2020-02-02'),
-    (3, 3, 2, 8, '2020-02-02'),
-    (2, 5, 4, 14, '2020-02-02'),
-    (4, 4, 1, 13, '2020-02-02'),
+    -- (1, 2, 3, 2, '2020-02-02'),
+    -- (3, 3, 2, 8, '2020-02-02'),
+    -- (2, 5, 4, 14, '2020-02-02'),
+    -- (4, 4, 1, 13, '2020-02-02'),
+    -- (5, 1, 5, 20, '2020-02-02'),
     (5, 1, 5, 20, '2020-02-02');
 
 --1.Sorgu
 SELECT KitapAdi, Yazar, YayınYılı
 FROM Kitaplar
 ;
+
 
 --2.Sorgu
 SELECT KitapAdi, Yazar
@@ -151,15 +153,40 @@ SELECT TOP 3
 FROM Kitaplar Ktp
 ORDER BY Ktp.YayınYılı ASC
 
+--9.Sorgu
+
+    SELECT ktp.KitapAdi AS 'Kitap', COUNT(*) AS 'Toplam'
+    FROM Kitaplar ktp
+        JOIN OduncAlmalar odnc ON ktp.KitapID=odnc.KitapID
+    GROUP BY ktp.KitapAdi
+
+UNION
+
+    SELECT drg.DergiAdi AS 'Dergi', COUNT(*) AS 'Toplam'
+    FROM Dergiler drg
+        JOIN OduncAlmalar odnc ON odnc.DergiID=drg.DergiID
+    GROUP BY drg.DergiAdi
+
+UNION
+
+    SELECT dvd.DVDAdi AS 'DVD', COUNT(*) AS 'Toplam'
+    FROM DVDler dvd
+        JOIN OduncAlmalar odnc ON odnc.DVDID=dvd.DVDID
+    GROUP BY dvd.DVDAdi
+
 --10.Sorgu
 
-SELECT ogr.Ad, ogr.Soyad,odn.DergiID,odn.DVDID,odn.KitapID from Ogrenciler ogr
-JOIN OduncAlmalar odn ON  ogr.OgrenciID=odn.OduncID
+SELECT ogr.Ad, ogr.Soyad, odn.DergiID, odn.DVDID, odn.KitapID
+from Ogrenciler ogr
+    JOIN OduncAlmalar odn ON  ogr.OgrenciID=odn.OduncID
 
-     WHERE ogr.Ad +' '+ ogr.Soyad ='Ahmet Yılmaz';
+WHERE ogr.Ad +' '+ ogr.Soyad ='Ahmet Yılmaz';
+SELECT *
+FROM OduncAlmalar
 
 
-     SELECT * FROM OduncAlmalar
+
+
 
      
      
