@@ -1,0 +1,14 @@
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\bin\Debug\net8.0\Soru2.exe
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\bin\Debug\net8.0\Soru2.deps.json
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\bin\Debug\net8.0\Soru2.runtimeconfig.json
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\bin\Debug\net8.0\Soru2.dll
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\bin\Debug\net8.0\Soru2.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\obj\Debug\net8.0\Soru2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\obj\Debug\net8.0\Soru2.AssemblyInfoInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\obj\Debug\net8.0\Soru2.AssemblyInfo.cs
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\obj\Debug\net8.0\Soru2.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\obj\Debug\net8.0\Soru2.dll
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\obj\Debug\net8.0\refint\Soru2.dll
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\obj\Debug\net8.0\Soru2.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\obj\Debug\net8.0\Soru2.genruntimeconfig.cache
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru2\obj\Debug\net8.0\ref\Soru2.dll

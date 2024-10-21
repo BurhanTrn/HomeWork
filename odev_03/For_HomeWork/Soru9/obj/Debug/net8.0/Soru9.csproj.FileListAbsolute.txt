@@ -1,0 +1,14 @@
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\bin\Debug\net8.0\Soru9.exe
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\bin\Debug\net8.0\Soru9.deps.json
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\bin\Debug\net8.0\Soru9.runtimeconfig.json
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\bin\Debug\net8.0\Soru9.dll
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\bin\Debug\net8.0\Soru9.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\obj\Debug\net8.0\Soru9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\obj\Debug\net8.0\Soru9.AssemblyInfoInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\obj\Debug\net8.0\Soru9.AssemblyInfo.cs
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\obj\Debug\net8.0\Soru9.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\obj\Debug\net8.0\Soru9.dll
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\obj\Debug\net8.0\refint\Soru9.dll
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\obj\Debug\net8.0\Soru9.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\obj\Debug\net8.0\Soru9.genruntimeconfig.cache
+C:\Users\Hp\Documents\GitHub\HomeWork_01_09_2024\For_HomeWork\Soru9\obj\Debug\net8.0\ref\Soru9.dll
