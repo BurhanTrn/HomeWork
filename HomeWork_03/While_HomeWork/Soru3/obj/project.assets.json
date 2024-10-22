@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork_01_09_2024\\While_HomeWork\\Soru3\\Soru3.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_03\\While_HomeWork\\Soru3\\Soru3.csproj",
       "projectName": "Soru3",
-      "projectPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork_01_09_2024\\While_HomeWork\\Soru3\\Soru3.csproj",
+      "projectPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_03\\While_HomeWork\\Soru3\\Soru3.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork_01_09_2024\\While_HomeWork\\Soru3\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_03\\While_HomeWork\\Soru3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
