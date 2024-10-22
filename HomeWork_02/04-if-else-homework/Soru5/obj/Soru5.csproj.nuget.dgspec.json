@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork_25_08_2024\\04-if-else-homework\\Soru5\\Soru5.csproj": {}
+    "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_02\\04-if-else-homework\\Soru5\\Soru5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork_25_08_2024\\04-if-else-homework\\Soru5\\Soru5.csproj": {
+    "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_02\\04-if-else-homework\\Soru5\\Soru5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork_25_08_2024\\04-if-else-homework\\Soru5\\Soru5.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_02\\04-if-else-homework\\Soru5\\Soru5.csproj",
         "projectName": "Soru5",
-        "projectPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork_25_08_2024\\04-if-else-homework\\Soru5\\Soru5.csproj",
+        "projectPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_02\\04-if-else-homework\\Soru5\\Soru5.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork_25_08_2024\\04-if-else-homework\\Soru5\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_02\\04-if-else-homework\\Soru5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

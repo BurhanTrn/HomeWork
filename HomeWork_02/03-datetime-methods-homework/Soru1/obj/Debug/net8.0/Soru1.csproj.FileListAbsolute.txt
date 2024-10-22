@@ -1,0 +1,15 @@
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\bin\Debug\net8.0\Soru1.exe
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\bin\Debug\net8.0\Soru1.deps.json
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\bin\Debug\net8.0\Soru1.runtimeconfig.json
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\bin\Debug\net8.0\Soru1.dll
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\bin\Debug\net8.0\Soru1.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\Soru1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\Soru1.AssemblyInfoInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\Soru1.AssemblyInfo.cs
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\Soru1.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\Soru1.sourcelink.json
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\Soru1.dll
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\refint\Soru1.dll
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\Soru1.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\Soru1.genruntimeconfig.cache
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_02\03-datetime-methods-homework\Soru1\obj\Debug\net8.0\ref\Soru1.dll
