@@ -531,51 +531,131 @@ class Program
         #region Soru15:
         // Bir dizideki elemanları küçükten büyüğe sıralayan bir algoritma yazın.Ancak sıralama sırasında sadece tek sayılar sıralanmalı, çift sayılar yerlerinde kalmalıdır.
 
-        int[] dizi = { 2, 5, 9, 10, 7, 8, 5 };
+        // int[] dizi = { 2, 5, 9, 10, 7, 8, 5 };
 
-        int teksayıadet = 0;
+        // int teksayıadet = 0;
 
 
-        for (int i = 0; i < dizi.Length; i++)
-        {
-            if (dizi[i] % 2 != 0)
-            {
-                teksayıadet++;
-            }
-        }
+        // for (int i = 0; i < dizi.Length; i++)
+        // {
+        //     if (dizi[i] % 2 != 0)
+        //     {
+        //         teksayıadet++;
+        //     }
+        // }
 
-        int[] tekdizi = new int[teksayıadet];
+        // int[] tekdizi = new int[teksayıadet];
 
-        int index = 0;
+        // int index = 0;
 
-        for (int i = 0; i < dizi.Length; i++)
-        {
-            if (dizi[i] % 2 != 0)
-            {
-                tekdizi[index] = dizi[i];
-                index++;
-            }
-        }
+        // for (int i = 0; i < dizi.Length; i++)
+        // {
+        //     if (dizi[i] % 2 != 0)
+        //     {
+        //         tekdizi[index] = dizi[i];
+        //         index++;
+        //     }
+        // }
 
-        Array.Sort(tekdizi);
+        // Array.Sort(tekdizi);
 
-        int index2 = 0;
-        for (int i = 0; i < dizi.Length; i++)
-        {
-            if (dizi[i] % 2 != 0)
-            {
-                dizi[i] = tekdizi[index2];
-                index2++;
-            }
-        }
+        // int index2 = 0;
+        // for (int i = 0; i < dizi.Length; i++)
+        // {
+        //     if (dizi[i] % 2 != 0)
+        //     {
+        //         dizi[i] = tekdizi[index2];
+        //         index2++;
+        //     }
+        // }
 
-        foreach (var item in dizi)
-        {
-            System.Console.WriteLine(item);
-        }
+        // foreach (var item in dizi)
+        // {
+        //     System.Console.WriteLine(item);
+        // }
 
 
         #endregion
+
+        #region Soru16: `do-while` döngüsü kullanarak, klavyeden girilen sayıları bir diziye ekleyin. Kullanıcı sıfır girdiğinde döngüden çıkın ve dizideki tüm sayılarla birlikte ortalamayı ekrana yazdırın.
+
+        // int alınanVeri = default;
+
+        // int[] sayilar = new int[100];
+        // int toplam = 0;
+        // int sayiSayisi = 0;
+        // int sayi;
+
+        // do
+        // {
+        //     Console.Write("Bir sayı girin (çıkmak için 0 girin): ");
+        //     sayi = Convert.ToInt32(Console.ReadLine());
+
+        //     if (sayi != 0)
+        //     {
+        //         sayilar[sayiSayisi] = sayi;
+        //         toplam += sayi;
+        //         sayiSayisi++;
+        //     }
+
+        // } while (sayi != 0);
+
+
+        // if (sayiSayisi > 0)
+        // {
+        //     double ortalama = (double)toplam / sayiSayisi;
+        //     Console.WriteLine("Girilen sayılar: " + string.Join(", ", sayilar, 0, sayiSayisi));
+        //     Console.WriteLine("Ortalama: " + ortalama);
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Hiçbir sayı girilmedi.");
+        // }
+        #endregion
+
+        #region Soru17:
+
+        Console.Write("Dizi boyutunu girin: ");
+        int diziBoyutu = Convert.ToInt32(Console.ReadLine());
+        int[] sayilar = new int[diziBoyutu];
+
+
+        for (int i = 0; i < diziBoyutu; i++)
+        {
+            Console.Write($"Dizi[{i}] için bir sayı girin: ");
+            sayilar[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+
+        int enBuyuk = int.MinValue;
+        int ikinciEnBuyuk = int.MinValue;
+
+
+        for (int i = 0; i < diziBoyutu; i++)
+        {
+            if (sayilar[i] > enBuyuk)
+            {
+                ikinciEnBuyuk = enBuyuk;
+                enBuyuk = sayilar[i];
+            }
+            else if (sayilar[i] > ikinciEnBuyuk && sayilar[i] != enBuyuk)
+            {
+                ikinciEnBuyuk = sayilar[i];
+            }
+        }
+
+
+        if (ikinciEnBuyuk != int.MinValue)
+        {
+            Console.WriteLine("En büyük sayı: " + enBuyuk);
+            Console.WriteLine("İkinci en büyük sayı: " + ikinciEnBuyuk);
+        }
+        else
+        {
+            Console.WriteLine("Yeterli farklı sayı yok.");
+        }
+        #endregion
+
 
     }
 }

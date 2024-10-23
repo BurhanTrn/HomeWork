@@ -1,0 +1,15 @@
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\Methods_HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\Methods_HomeWork.AssemblyInfoInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\Methods_HomeWork.AssemblyInfo.cs
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\Methods_HomeWork.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\Methods_HomeWork.sourcelink.json
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\bin\Debug\net8.0\Methods_HomeWork.exe
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\bin\Debug\net8.0\Methods_HomeWork.deps.json
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\bin\Debug\net8.0\Methods_HomeWork.runtimeconfig.json
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\bin\Debug\net8.0\Methods_HomeWork.dll
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\bin\Debug\net8.0\Methods_HomeWork.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\Methods_HomeWork.dll
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\refint\Methods_HomeWork.dll
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\Methods_HomeWork.pdb
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\Methods_HomeWork.genruntimeconfig.cache
+C:\Users\Hp\Documents\GitHub\HomeWork\HomeWork_04\Methods_HomeWork\obj\Debug\net8.0\ref\Methods_HomeWork.dll
