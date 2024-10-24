@@ -1,4 +1,6 @@
-﻿namespace Methods_HomeWork;
+﻿using System.Globalization;
+
+namespace Methods_HomeWork;
 
 class Program
 {
@@ -126,10 +128,123 @@ class Program
 
 
     //----------------------------------------------------------------------------------
+    static string GetDayOfWeek(string tarih)//Soru12
+    {
+        DateTime date;
 
 
+        if (DateTime.TryParse(tarih, out date))
+        {
+
+            return date.ToString("dddd", new CultureInfo("tr-TR"));
+        }
+        else
+        {
+            return "Geçersiz tarih formatı.";
+        }
+    }
+
+    //----------------------------------------------------------------------------------
+
+    static int KelimeSay(string metin)
+    {
+
+        return metin.Split(new char[] { ' ', '.', '!', '?', ',', ';', ':' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    }
+
+    //----------------------------------------------------------------------------------
 
 
+    static int GunSay(DateTime tarih1, DateTime tarih2)
+    {
+
+        return (tarih2 - tarih1).Days;
+    }
+
+
+    //----------------------------------------------------------------------------------
+    static double OrtalamaHesapla(double[] dizi)
+    {
+        if (dizi.Length == 0) return 0;
+
+        double toplam = 0;
+        foreach (var eleman in dizi)
+        {
+            toplam += eleman;
+        }
+
+        return toplam / dizi.Length;
+    }
+
+    //----------------------------------------------------------------------------------
+    static bool PalindromMu(string kelime)
+    {
+
+        char[] kelimeArray = kelime.ToCharArray();
+        Array.Reverse(kelimeArray);
+        string tersKelime = new string(kelimeArray);
+
+
+        return kelime.Equals(tersKelime, StringComparison.OrdinalIgnoreCase);
+    }
+    //----------------------------------------------------------------------------------
+    static int SayiyiSay(List<int> sayilar, int arananSayi)
+    {
+        int sayac = 0;
+
+        foreach (var sayi in sayilar)
+        {
+            if (sayi == arananSayi)
+            {
+                sayac++;
+            }
+        }
+
+        return sayac;
+    }
+
+    //----------------------------------------------------------------------------------
+    static string TamIsimGetir(string ad, string soyad)
+    {
+        return $"{ad} {soyad}";
+    }
+    //----------------------------------------------------------------------------------
+    static List<int> AsalSayilariBul(int baslangic, int bitis)
+    {
+        List<int> asalSayilar = new List<int>();
+
+        for (int sayi = baslangic; sayi <= bitis; sayi++)
+        {
+            if (AsalMi(sayi))
+            {
+                asalSayilar.Add(sayi);
+            }
+        }
+
+        return asalSayilar;
+    }
+
+    static bool AsalMi(int sayi)
+    {
+        if (sayi < 2) return false;
+
+        for (int i = 2; i <= Math.Sqrt(sayi); i++)
+        {
+            if (sayi % i == 0)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    //----------------------------------------------------------------------------------
+
+    static string Birleştir(string[] kelimeler)
+    {
+        return string.Join(" ", kelimeler);
+    }
 
 
 
@@ -208,6 +323,85 @@ class Program
 
         // int sesliSayisi = SesliHarfSayisi(kelime);
         // Console.WriteLine($"{kelime} kelimesindeki sesli harf sayısı: {sesliSayisi}");
+
+        //Soru12:----------------------------------------------------------------------------------------------------
+
+        // string tarih = "2024-10-24";
+
+
+        // string gun = GetDayOfWeek(tarih);
+
+        // Console.WriteLine($"{tarih} tarihi bir {gun} günüdür.");
+
+        //Soru13:----------------------------------------------------------------------------------------------------
+
+        // string metin = "Merhaba dünya! Merhaba C# programlama.";
+        // var kelimeSayisi = KelimeSay(metin);
+
+        // Console.WriteLine($"Kelime Sayısı: {kelimeSayisi}");
+
+        //Soru14:----------------------------------------------------------------------------------------------------
+
+        // DateTime tarih1 = new DateTime(2023, 10, 1);
+        // DateTime tarih2 = new DateTime(2023, 10, 24);
+
+        // int gunSayisi = GunSay(tarih1, tarih2);
+        // Console.WriteLine($"İki tarih arasındaki gün sayısı: {gunSayisi}");
+
+        //Soru15:----------------------------------------------------------------------------------------------------
+        // double[] dizi = { 10.5, 20.0, 30.5, 40.0, 50.5 };
+        // double ortalama = OrtalamaHesapla(dizi);
+
+        // Console.WriteLine($"Dizinin ortalaması: {ortalama}");
+
+        //Soru16:----------------------------------------------------------------------------------------------------
+        // string kelime = "madam";
+        // bool sonuc = PalindromMu(kelime);
+
+        // if (sonuc)
+        // {
+        //     Console.WriteLine($"{kelime} bir palindromdur.");
+        // }
+        // else
+        // {
+        //     Console.WriteLine($"{kelime} bir palindrom değildir.");
+        // }
+
+        //Soru17:----------------------------------------------------------------------------------------------------
+        // List<int> sayilar = new List<int> { 1, 2, 3, 4, 2, 5, 2, 6 };
+        // int arananSayi = 2;
+        // int sayiSayisi = SayiyiSay(sayilar, arananSayi);
+
+        // Console.WriteLine($"{arananSayi} sayısı listede {sayiSayisi} defa geçiyor.");
+
+        //Soru18:----------------------------------------------------------------------------------------------------
+        // Console.Write("Adınızı girin: ");
+        // string ad = Console.ReadLine();
+
+        // Console.Write("Soyadınızı girin: ");
+        // string soyad = Console.ReadLine();
+
+        // string tamIsim = TamIsimGetir(ad, soyad);
+        // Console.WriteLine($"Tam isminiz: {tamIsim}");
+
+        //Soru19:----------------------------------------------------------------------------------------------------
+        // Console.Write("Başlangıç sayısını girin: ");
+        // int baslangic = int.Parse(Console.ReadLine());
+
+        // Console.Write("Bitiş sayısını girin: ");
+        // int bitis = int.Parse(Console.ReadLine());
+
+        // List<int> asalSayilar = AsalSayilariBul(baslangic, bitis);
+
+        // Console.WriteLine($"Asal sayılar: {string.Join(", ", asalSayilar)}");
+
+
+        //Soru20:----------------------------------------------------------------------------------------------------
+        // string[] kelimeler = { "Merhaba", "dünya", "nasılsın?" };
+        // string birlesikString = Birleştir(kelimeler);
+        // Console.WriteLine($"Birleştirilmiş String: {birlesikString}");
+
+
 
 
 
