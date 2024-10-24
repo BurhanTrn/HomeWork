@@ -10,6 +10,6 @@ public class Giraffe : Animal
     }
     public override void MakeSound()
     {
-        System.Console.WriteLine($"{Name} bi ses  çıkardı ama ben anlamadım.");
+        System.Console.WriteLine($"{Name} bi ses  çıkardı ama ben anlamadım, Onun yaşı {Age} ve kendisi bir {Species} familyasından.");
     }
 }

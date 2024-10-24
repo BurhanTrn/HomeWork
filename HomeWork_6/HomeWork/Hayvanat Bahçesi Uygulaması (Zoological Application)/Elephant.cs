@@ -11,6 +11,6 @@ public class Elephant : Animal
 
     public override void MakeSound()
     {
-        System.Console.WriteLine($"{Name} boru sesi çıkardı");
+        System.Console.WriteLine($"{Name} boru sesi çıkardı, Onun yaşı {Age} ve kendisi bir {Species} familyasından.");
     }
 }

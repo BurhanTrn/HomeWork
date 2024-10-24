@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.enustdiv {
+    background-color: #085E7D;
+    padding: 8px;
+
+}
+
+.enustdiv-container {
+
+
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.enustdiv-container-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding-left: 7rem;
+    font-size: 1.10rem;
+
+}
+
+.enustdiv-container-menu a {
+    font-size: 18px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.589);
+
+
+
+}
+
+i {
+    padding-right: 5px;
+}
+
+.enustdiv-container-menu a.active,
+.enustdiv-container-menu a:hover {
+    color: white;
+
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+
+
+
+}
+
+.enustdivsearch {
+    margin-right: 170px;
+    display: flex;
+
+
+}
+
+.enustdivsearch button {
+    padding: 10px;
+    background-color: #ffa007;
+
+    border-radius: 8px;
+    margin-left: 7px;
+    width: 45px;
+    border: none;
+
+
+}
+
+
+
+.enustdivsearch button:hover {
+    background-color: rgba(255, 149, 0, 0.901);
+
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.ustpanel1 {
+    text-align: center;
+
+}
+
+.ustpanel1 h1 {
+    font-size: 60px;
+    padding-top: 130px;
+}
+
+.ustpanel1 p {
+    font-size: 20px;
+}
+
+.ustpanel2 {
+
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 0.5rem;
+
+
+
+}
+
+.ustpanel2 button {
+    border: none;
+    height: 45px;
+    display: flex;
+    padding: 12px;
+    width: 85px;
+    font-size: 15.9px;
+    border-radius: 8px;
+}
+
+.buton1 {
+    background-color: #0d6efd;
+    color: white;
+    display: flex;
+    align-items: center;
+   
+
+
+}
+
+.buton2 {
+    background-color: #198754;
+    color: white;
+
+}
+
+.buton1:hover {
+    background-color: #0a53be;
+}
+
+.buton2:hover {
+    background-color: #075531;
+}
+
+.ustpanel3 {}
+
+.ustpanel3 img {
+    width: 600px;
+
+
+
+
+}
+
+.ustpanel-container {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.ortapanel {
+
+    background-color: #085E7D;
+
+}
+
+.ortapanel-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.ortapanel h1 {
+    font-size: 60px;
+    color: white;
+
+}
+
+.ortapanel p {
+    font-size: 25px;
+    color: white;
+}
+
+.ortapanel2 button {
+    width: 85px;
+    height: 45px;
+    margin-top: 15px;
+    background-color: #085E7D;
+    border-radius: 8px;
+    gap: 1rem;
+    font-size: 18px;
+    margin-left: 3px;
+
+}
+
+.buton3 {
+    border: 1px solid orange;
+    color: orange;
+}
+
+.buton4 {
+    border: 1px solid white;
+    color: white;
+}
+
+.buton3:hover {
+    background-color: orange;
+    color: black;
+}
+
+.buton4:hover {
+    background-color: white;
+    color: black;
+}
+
+.altpanel-container {
+    margin-top: 25px;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.altpanel-bölüm {
+    border: 0.1px solid rgb(0, 0, 0, 0.35);
+    border-radius: 7px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);
+    width: 450px;
+}
+
+.altpanel-bölüm img {
+    border-radius: 7px;
+
+
+
+
+}
+
+.altpanel-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+.altpanel-text p {}
