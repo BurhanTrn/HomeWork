@@ -1,20 +1,22 @@
-@{
-    ViewData["Title"] = "Index";
-}
+@model List<BlogYazisi>
 
+@{
+    ViewData["Title"] = "Yazılar";
+}
 
 <div class="container">
     <div class="row">
-        @foreach (var item in ViewBag.blogList)
+        @foreach (var blogYazisi in Model)
         {
-            <div class="card" style="width: 18rem;">
-                <img src="@item.Görsel" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">@item.Title</h5>
-                    <p class="card-text">@item.Özetİfade</p>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="@blogYazisi.ResimUrl" class="card-img-top" alt="@blogYazisi.Baslik" />
+                    <div class="card-body">
+                        <h5 class="card-title">@blogYazisi.Baslik</h5>
+                        <p class="card-text">@blogYazisi.Ozet</p>
+                    </div>
                 </div>
             </div>
         }
-
     </div>
 </div>

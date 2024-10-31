@@ -5,40 +5,33 @@ namespace BlogApp.Controllers
 {
     public class BlogController : Controller
     {
-        List<BlogModel> blogModels;
-
-        public BlogController()
-        {
-            blogModels = [
-                new BlogModel {
-                     Title = "Başlık1", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/151/200/300"
-                }, new BlogModel {
-                     Title = "Başlık2", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/83/200/300"
-                }, new BlogModel {
-                     Title = "Başlık3", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/95/200/300"
-                }, new BlogModel {
-                     Title = "Başlık4", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/102/200/300"
-                }, new BlogModel {
-                     Title = "Başlık5", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/158/200/300"
-                }, new BlogModel {
-                     Title = "Başlık6", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/111/200/300"
-                }, new BlogModel {
-                     Title = "Başlık7", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/114/200/300"
-                }, new BlogModel {
-                     Title = "Başlık8", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/123/200/300"
-                }, new BlogModel {
-                     Title = "Başlık9", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/196/200/300"
-                }, new BlogModel {
-                     Title = "Başlık10", Özetİfade ="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.", Görsel = "https://picsum.photos/id/191/200/300"
-                }
-            ];
-        }
+        // GET: BlogController
         public ActionResult Index()
         {
-            ViewBag.blogList=blogModels;
-            return View();
+            var blogYazilari = new List<BlogYazisi>
+        {
+            new BlogYazisi { Baslik = "Yazı 1", Ozet = "Özet 1", ResimUrl = "https://picsum.photos/200/150?random=1" },
+            new BlogYazisi { Baslik = "Yazı 2", Ozet = "Özet 2", ResimUrl = "https://picsum.photos/200/150?random=2" },
+            new BlogYazisi { Baslik = "Yazı 3", Ozet = "Özet 3", ResimUrl = "https://picsum.photos/200/150?random=3" },
+            new BlogYazisi { Baslik = "Yazı 4", Ozet = "Özet 4", ResimUrl = "https://picsum.photos/200/150?random=4" },
+            new BlogYazisi { Baslik = "Yazı 5", Ozet = "Özet 5", ResimUrl = "https://picsum.photos/200/150?random=5" },
+            new BlogYazisi { Baslik = "Yazı 6", Ozet = "Özet 6", ResimUrl = "https://picsum.photos/200/150?random=6" },
+            new BlogYazisi { Baslik = "Yazı 7", Ozet = "Özet 7", ResimUrl = "https://picsum.photos/200/150?random=7" },
+            new BlogYazisi { Baslik = "Yazı 8", Ozet = "Özet 8", ResimUrl = "https://picsum.photos/200/150?random=8" },
+            new BlogYazisi { Baslik = "Yazı 9", Ozet = "Özet 9", ResimUrl = "https://picsum.photos/200/150?random=9" },
+            new BlogYazisi { Baslik = "Yazı 10", Ozet = "Özet 10", ResimUrl = "https://picsum.photos/200/150?random=10" }
+        };
+            return View(blogYazilari);
         }
-
 
     }
 }
+
+
+
+
+
+
+
+
+

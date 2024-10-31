@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "Kategoriler";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        @foreach (var kategori in ViewBag.Kategoriler)
+        {
+            <div class="col-md-4">
+                <div class="card mb-3 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">@kategori.Ad</h5>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,28 +1,29 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Ana Sayfa";
 }
 
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
 
-
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="https://picsum.photos/id/1018/1920/1080" class="d-block w-100" alt="Doğa Manzarası">
+            <img src="https://picsum.photos/800/400?random=1" class="d-block w-100" alt="Slayt 1">
         </div>
         <div class="carousel-item">
-            <img src="https://picsum.photos/id/1015/1920/1080" class="d-block w-100" alt="Şehir Manzarası">
+            <img src="https://picsum.photos/800/400?random=2" class="d-block w-100" alt="Slayt 2">
         </div>
         <div class="carousel-item">
-            <img src="https://picsum.photos/id/1005/1920/1080" class="d-block w-100" alt="Deniz Manzarası">
+            <img src="https://picsum.photos/800/400?random=3" class="d-block w-100" alt="Slayt 3">
         </div>
-
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="sr-only">Önceki</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+        <span class="sr-only">Sonraki</span>
+    </a>
 </div>
