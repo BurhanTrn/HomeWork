@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\Desktop\\HomeWork11r\\BlogApp\\BlogApp.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_11\\BlogApp\\BlogApp.csproj",
       "projectName": "BlogApp",
-      "projectPath": "C:\\Users\\Hp\\Desktop\\HomeWork11r\\BlogApp\\BlogApp.csproj",
+      "projectPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_11\\BlogApp\\BlogApp.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\Desktop\\HomeWork11r\\BlogApp\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\Documents\\GitHub\\HomeWork\\HomeWork_11\\BlogApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
